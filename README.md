@@ -11,15 +11,13 @@ Using LSTM and GRU network to perform sentiment classification from Twitter data
 
 ## Project Summary
 
-Tanzanian Ministry of Water wants invest X amount of money on improving the water supply in their country. In order to do that, they want to identify the wells that needs immediate attention. They want to find out the number of wells from a newly collected test sites that are dysfunctional or needs repairs. Based on this, they want to focus on the following issues:
+X-Insight is an analytical company which provides analytical solutions to the major companies regarding there products, market analysis, sales analysis. Pine-Apple has hired X-insight to perform a large-scale market sentiment analysis on their products. 
+In order to perform such analysis, X-insight is relying on Machine Learning to predict public sentiment from text data. For this purpose, X-insight is looking into twitter text data to predict if the given text has positive or negative sentiment towards a particular brand. More importantly, they want to test whether the project is feasible to invest more on large scale data collection and modelling. 
 
-1. Identify region with large number of non-functioning water pump
-2. Prioritize the region large group of people is being affected from the failed pumps. 
-3. Identify the attribute types of the pumps that led to most of the failures
 
 ## Data
 
-The datasets for this project is provided by [drivendata.org](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/). The dataset includes more than 60,000 water pump locations containing 40 features(10 numerical and 30 categorical). The description of the columns can be found in the link above. 
+The datasets for this project is provided by [data.world](https://data.world/crowdflower/brands-and-product-emotions). The dataset includes twitter text related to Apple and Google products with user sentiment ranked between 'positive', 'negative', 'neutral', and 'no_idea' sentiments.  
 
 
 
@@ -35,8 +33,8 @@ See the full analysis in the [Jupyter Notebook](./final_model.ipynb) or review t
 ```
 ├── data
 ├── images
-├── Water_pump_exploration.ipynb
-├── Final_Model.ipynb
-├── Water_Pump_Failure_Prediction_notebook.pdf
+├── Tweeted text exploration.ipynb
+├── Brand_Sentiment_Analysis_with_Final_Model.ipynb
+├── Brand_Sentiment_Analysis_with_Final_Model.pdf
 └── README.md
 ```
