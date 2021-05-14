@@ -1,4 +1,4 @@
-![image](https://github.com/sgautam666/Tanzania_Water_Pump_Failure_Prediction/blob/main/images/water_tap.jpg)
+![image](https://github.com/sgautam666/Brand_Sentiment_Analysis_with_NLP/blob/main/images/photo-1595287137144-cf60a87f39d9_unsplash_Chris%20J.%20Davis.jpg)
 
 # Brand_Sentiment_Analysis_with_NLP
 
