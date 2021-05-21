@@ -40,8 +40,10 @@ See the full analysis in the [Jupyter Notebook](./final_model.ipynb) or review t
 ```
 ├── data
 ├── images
-├── Tweeted text exploration.ipynb
-├── Brand_Sentiment_Analysis_with_Final_Model.ipynb
-├── Brand_Sentiment_Analysis_with_Final_Model.pdf
+├── Apple-Twitter-Senweeted-DFE.csv
+├── Brand_Sentiment_Analysis_Final.ipynb
+├── Brand_Sentiment_Analysis_Notebook.pdf
+├── Brand_Sentiment_Analysis_ppt
+├── Miscellaneous_files
 └── README.md
 ```
