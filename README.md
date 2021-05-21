@@ -17,9 +17,16 @@ In order to perform such analysis, X-insight is relying on Machine Learning to p
 
 ## Data
 
-The datasets for this project is provided by [data.world](https://data.world/crowdflower/brands-and-product-emotions). The dataset includes twitter text related to Apple and Google products with user sentiment ranked between 'positive', 'negative', 'neutral', and 'no_idea' sentiments.  
+The datasets for this project is provided by [data.world](https://data.world/crowdflower/brands-and-product-emotions). The dataset includes twitter text related to Apple and Google products with user sentiment ranked between 'positive', 'negative', 'neutral', and 'no_idea' sentiments. Amongst these, the 'neutral' class occupies 60% of the class label whereas 'negative' class is about 6% of data resulting into a highly imbalanced class labels.
 
+## Sentiment Classification 
+Initial modeling effort showed that the our models suffers from the class imbalance. Therefore, few extra tweets with 'negative' class label were collected from different dataset (same source) and appended to the dataframe.
+Tradition classification algorithms: Naive Bayes and Random Forest were tested as well as more sophisticated LSTM and GRU were tested. Traditional methods suffers from training overfit. The neural network improves on the overfit slightly but the accuracy is limited to 70%.
 
+![image](https://github.com/sgautam666/Brand_Sentiment_Analysis_with_NLP/blob/main/images/text_predict.PNG)
+
+## Future Improvements
+The size of the training data is relatively very small to overcome the training over-fit. However, the neural LSTM and GRUs show promising results.It would be beneficial to test BERT and latest GPT-3 models in these data. But, prior to that, a significant amount of work needs to done in data collection with reduced class imbalance. 
 
 
 ## For More Information
